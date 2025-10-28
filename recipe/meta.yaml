@@ -1,5 +1,5 @@
 {% set name = "semchunk" %}
-{% set version = "3.2.1" %}
+{% set version = "3.2.5" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/semchunk-{{ version }}.tar.gz
-  sha256: ea45893047f63df1b92f552144a20473ece4b004ac3d92cfe92601fd7d3281b0
+  sha256: ee15e9a06a69a411937dd8fcf0a25d7ef389c5195863140436872a02c95b0218
 
 build:
   noarch: python
